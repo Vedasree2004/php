@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    background: #f9f9fb;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background: #fff;
+    padding: 30px 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+    min-height: 100vh;
+  }
+  
+  .sidebar h2 {
+    color: #5c4dff;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar h2 span {
+    color: #000;
+  }
+  
+  .sidebar nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s;
+  }
+  
+  .nav-item i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .nav-item:hover,
+  .nav-item.active {
+    background: #f1f1ff;
+    color: #5c4dff;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .main header h1 {
+    font-size: 28px;
+    color: #111;
+    margin-bottom: 5px;
+  }
+  
+  .main header p {
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 16px;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  
+  .card p {
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  
+  .card .info span {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  
+  .card .info i {
+    margin-right: 6px;
+  }
+  
+  /* Gradient backgrounds */
+  .purple {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+  }
+  .blue {
+    background: linear-gradient(135deg, #4285F4, #2a63c3);
+  }
+  .magenta {
+    background: linear-gradient(135deg, #aa076b, #61045f);
+  }
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+  
